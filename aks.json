@@ -123,10 +123,6 @@
             "type": "VirtualMachineScaleSets"
           }
         ],
-        "networkProfile": 
-          {
-            "networkPlugin": "azure"
-          },
         "linuxProfile": {
           "adminUsername": "[parameters('linuxAdminUsername')]",
           "ssh": {
