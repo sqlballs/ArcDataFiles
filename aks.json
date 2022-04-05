@@ -111,10 +111,6 @@
         "kubernetesVersion": "[parameters('kubernetesVersion')]",
         "enableRBAC": "[parameters('enableRBAC')]",
         "dnsPrefix": "[parameters('dnsPrefix')]",
-        "aadProfile": 
-          {
-            "managed": false
-          },
         "agentPoolProfiles": [
           {
             "name": "agentpool",
